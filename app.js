@@ -9,5 +9,5 @@ const authRestApi = require("./lib/rest_api/auth");
 serverUse.on(app);
 authRestApi.on(app);
 
-server.listen(process.env.PORT||serverPort);
+server.listen(serverPort);
 console.log("現在使用" + serverPort + "port");

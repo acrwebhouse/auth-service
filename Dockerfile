@@ -3,6 +3,6 @@ WORKDIR /usr/src/app
 COPY package.json /usr/src/app/
 COPY . /usr/src/app
 RUN npm install 
-RUN npm run swagger-autogen
+RUN chmod +x ./dockerCmd.sh
 EXPOSE 3000
-CMD [ "node","app.js"]
+CMD [ "./dockerCmd.sh"]
