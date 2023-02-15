@@ -1,5 +1,5 @@
-USER_BASIC_LOCATION=http://35.234.42.100:13000
-SMTP_BASIC_LOCATION=http://35.234.42.100:16000
-WEB_LOCATION=http://35.234.42.100:8080
-EMPLOYEES_BASIC_LOCATION=http://35.234.42.100:21000
+USER_BASIC_LOCATION=https://matchrentdev.com/user-basic-service
+SMTP_BASIC_LOCATION=https://matchrentdev.com/smtp-basic-service
+WEB_LOCATION=https://matchrentdev.com
+EMPLOYEES_BASIC_LOCATION=https://matchrentdev.com/employees-basic-service
 SWAGGER_IP=34.81.209.11
