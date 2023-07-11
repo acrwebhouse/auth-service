@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:18
 WORKDIR /usr/src/app
 COPY package.json /usr/src/app/
 COPY . /usr/src/app
